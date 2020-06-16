@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fffefe"
+    tools:context=".fruits">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/mpitch"
+            android:focusableInTouchMode="true"
+            android:verticalScrollbarPosition="right"
+            android:maxWidth="50dp"
+            android:backgroundTint="#dc0d0d"
+            android:backgroundTintMode="screen"
+            android:progress="50"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fc0000"
+            android:text="pitch"/>
+
+        <SeekBar
+            android:id="@+id/mspeed"
+            android:progress="50"
+            android:layout_marginTop="10dp"
+            android:pointerIcon="zoom_in"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0000"
+            android:text="Speed"/>
+
+        <CheckBox
+            android:id="@+id/mvoice"
+            android:layout_width="wrap_content"
+            android:background="#fafafa"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ff0101"
+            android:text="M/F"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mango"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:hapticFeedbackEnabled="true"
+                    android:text="mango\n"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/mango1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/mango"
+                    android:text="Mango"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/banana"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:gravity="center"
+                    android:text="banana\n"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/banana1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/banana"
+                    android:text="Mango"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/orange"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="orange\n"
+                    android:textAlignment="gravity"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/orange1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/orange"
+                    android:text="Mango"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/strawberry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="Strawberry\n"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/strawberry1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/stroberry"
+                    android:text="Mango"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/pears"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="pears\n"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="#000000"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/pears1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/pear"
+                    android:text="Mango"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/blueberry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="Blueberry \n"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/blueberry1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/b2"
+                    android:text="Mango"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/grapes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="Grapes\n"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/grapes1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/grapes"
+                    android:text="Mango"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/coconut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="Coconuts\n"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/coconut1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Mango"
+                  android:background="@drawable/cc"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="Date\n"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/date1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/date"
+                    android:text="Date"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/fig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="Figs\n"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/fig1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:text="Figs"
+android:background="@drawable/ff"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/jackfruit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="JackFruit\n"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/jackfruit1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/jj"
+                    android:text="Jackfruit"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/ly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="Lychee\n"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/ly1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/lychee"
+                    android:text="Lychee"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mulberry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/textcircle"
+                    android:text="Mulberry\n"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/mulberry1"
+                    android:layout_width="10dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/mm"
+                    android:text="Mulberry"
+                    android:textAlignment="center"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

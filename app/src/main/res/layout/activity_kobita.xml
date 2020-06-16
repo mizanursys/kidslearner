@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f4da98"
+    android:orientation="vertical"
+    tools:context="com.example.home.learner.kobita">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/mpitch"
+            android:focusableInTouchMode="true"
+            android:verticalScrollbarPosition="right"
+            android:maxWidth="50dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#dc0d0d"
+            android:backgroundTintMode="screen"
+            android:progress="50"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pitch"/>
+
+        <SeekBar
+            android:id="@+id/mspeed"
+            android:progress="50"
+            android:layout_marginTop="10dp"
+            android:pointerIcon="zoom_in"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Speed"/>
+
+        <CheckBox
+            android:id="@+id/mvoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M/F"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/b7"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="কাঠবেড়ালি কাঠবেড়ালি"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#f94305"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/kobita1"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#f4f406"
+                    android:text=" কাঠবিড়ালি কাঠবিড়ালি,\nপেয়ারা তুমি খাও\nদুধ ভাত খাও,\nগুর মুড়ি খাও,\nবাতাবি লেবু লাও\nবেড়াল বাচ্চা কুকুর ছানা তাও,\nছোঁচা তুমি,তোমার সাথে আড়ি আমার যাও"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/b7"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="দোল দোল দুলুনি"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#f94305"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/kobita2"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#f4f406"
+                    android:text="দোল দোল দুলুনি \nরাঙ্গা মাথায় চিরুনি \nবর আসবে এখুনি \nনিয়ে যাবে তখনি
+"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/b7"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="আম পাতা জোরা জোরা"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#f94305"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/kobita3"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#f4f406"
+                    android:text="আম পাতা জোরা জোরা\nমারব চাবুক চোরব ঘোড়া\nওরে বুবু সরে দারা\nআসছে আমার পাগলা ঘোড়া\nপাগলা ঘোড়া খেপেছে\nচাবুক ছুরে মেরেছে"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/b7"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="আতা গাছে তোতা পাখি"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#f94305"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:id="@+id/kobita4"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#f4f406"
+                    android:text="আতা গাছে তোতা পাখি\nডালিম গাছে মৌ\nএতো ডাকি\nতবু কথা কও না কেন বৌ"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/b7"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ঘুমপাড়ানী মাসি পিসি"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textColor="#f94305"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/kobita6"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#f4f406"
+                    android:text="ঘুমপাড়ানী মাসি পিসি,\nমোদের বাড়ি এসো।\nখাট নাই পালং নাই,\nচোখ পেতে বোসো।\nবাটা ভরা পান দেব,\nগাল ভরে খেও।\nখোকার চোখে ঘুম নাই,\nঘুম দিয়ে যেও।"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

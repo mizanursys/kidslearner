@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    tools:context="com.example.home.learner.about">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@mipmap/f23"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignLeft="@+id/home"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/home"
+            android:background="@drawable/thm"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/con"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView"
+            android:layout_gravity="center"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:text="Contact With Sudo"
+            android:textAllCaps="true"
+            android:textColor="#e24114"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/con"
+            android:layout_gravity="center"
+            android:layout_marginTop="14dp"
+            android:gravity="center"
+            android:text="sudodeveloper81@gmail.com"
+            android:textColor="#f7ff00"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/home"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="More Updates Will Coming Soon......."
+            android:textColor="#ff0900"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+        <ImageButton
+
+            android:id="@+id/home"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center|bottom"
+            android:layout_marginBottom="38dp"
+            android:background="@mipmap/home"
+            android:foregroundGravity="bottom" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+

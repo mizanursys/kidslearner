@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".human">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="90dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/eyebrow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#000000"
+
+                android:text="eyebrow"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/eye"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginBottom="5dp"
+                android:background="#000000"
+                android:text="Eye"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/nose"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_above="@+id/arm"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_x="0dp"
+                android:layout_y="221dp"
+                android:background="#000000"
+                android:text="Nose"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/arm"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_alignLeft="@+id/leg"
+                android:layout_alignStart="@+id/leg"
+                android:layout_x="0dp"
+                android:layout_y="256dp"
+                android:background="#000000"
+                android:text="Arm"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/hand"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="13dp"
+                android:background="#000000"
+                android:text="Hand"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/leg"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="#000000"
+                android:text="Leg"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/toe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#000000"
+                android:text="Toe"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+
+                android:textColor="#d42d2d" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="180dp">
+
+            <Button
+                android:id="@+id/ear"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_above="@+id/forehead"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="6dp"
+                android:background="#000000"
+                android:text="ear"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d13c3c"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/forehead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignBottom="@+id/mouth"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="56dp"
+                android:background="#000000"
+                android:text="Forehead"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/mouth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/chest"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="14dp"
+                android:background="#000000"
+                android:text="Mouth"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/chest"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_above="@+id/stomach"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="16dp"
+                android:background="#000000"
+                android:text="chest"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/stomach"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_above="@+id/knee"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="42dp"
+                android:background="#000000"
+                android:text="Stomach"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/knee"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+
+                android:layout_above="@+id/foot"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#000000"
+                android:text="Knee"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/foot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="62dp"
+                android:background="#000000"
+                android:text="Foot"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textColor="#d42d2d"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+
+
+</LinearLayout>

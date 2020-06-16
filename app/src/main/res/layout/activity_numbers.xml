@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/b7"
+    android:orientation="vertical"
+    tools:context="com.example.home.learner.Numbers">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/btone"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+android:background="@mipmap/blackboard"
+                android:text="1\nONE"
+                android:textColor="#cedf0c"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/bttwo"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/blackboard"
+                android:text="2\nTWO"
+                android:textColor="#cedf0c"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/btthree"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/blackboard"
+                android:text="3\nTHREE"
+                android:textAlignment="center"
+                android:textColor="#cedf0c"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/btfour"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/blackboard"
+                android:text="4\nFOUR"
+                android:textColor="#dc8c0c"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btfive"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/blackboard"
+                android:text="5\nFIVE"
+                android:textColor="#dc8c0c"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/btsix"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/blackboard"
+                android:text="6\nSIX"
+                android:textColor="#dc8c0c"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/btseven"
+                android:layout_weight="1"
+
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/blackboard"
+                android:gravity="center"
+                android:text="7\nSEVEN"
+                android:textAlignment="center"
+                android:textColor="#f8fbfd"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/bteight"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/blackboard"
+                android:gravity="center"
+                android:text="8\nEIGHT"
+                android:textColor="#fcfcff"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/btnine"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@mipmap/blackboard"
+                android:text="9\nNINE"
+                android:gravity="center"
+                android:textColor="#fcfffc"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp">
+
+</LinearLayout>
+
+
+    <Button
+        android:id="@+id/btzero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:background="@mipmap/blackboard"
+        android:text="0\nZERO"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="#fff702"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

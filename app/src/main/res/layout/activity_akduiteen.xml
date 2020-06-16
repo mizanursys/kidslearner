@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:background="@mipmap/b7"
+
+    android:orientation="vertical"
+    tools:context="com.example.home.learner.Numbers">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/mpitch"
+            android:focusableInTouchMode="true"
+            android:verticalScrollbarPosition="right"
+            android:maxWidth="50dp"
+            android:backgroundTint="#dc0d0d"
+            android:backgroundTintMode="screen"
+            android:progress="50"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fafafa"
+            android:text="pitch"/>
+
+        <SeekBar
+            android:id="@+id/mspeed"
+            android:progress="50"
+            android:layout_marginTop="10dp"
+            android:pointerIcon="zoom_in"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fafafa"
+            android:text="Speed"/>
+
+        <CheckBox
+            android:id="@+id/mvoice"
+            android:layout_width="wrap_content"
+            android:background="#fafafa"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fafafa"
+            android:layout_marginRight="8dp"
+            android:text="M/F"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:id="@+id/btone"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@mipmap/b4"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:text="১\nএক"
+                    android:textColor="#cedf0c"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:id="@+id/bttwo"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@mipmap/b4"
+                    android:text="২\nদুই"
+                    android:textColor="#ff1a16"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:id="@+id/btthree"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@mipmap/b4"
+                    android:text="৩\nতিন"
+                    android:textAlignment="center"
+                    android:textColor="#cedf0c"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+           android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:id="@+id/btfour"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@mipmap/b4"
+                    android:text="৪\nচার"
+                    android:textColor="#dc8c0c"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/btfive"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/b4"
+                    android:text="৫\nপাচ"
+                    android:textColor="#f53307"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:id="@+id/btsix"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:background="@mipmap/b4"
+                    android:text="৬\nছয়"
+                    android:textColor="#dc8c0c"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:id="@+id/btseven"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+
+                    android:text="৭\nসাত"
+                    android:background="@mipmap/b4"
+                    android:textAlignment="center"
+                    android:textColor="#f8fbfd"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:id="@+id/bteight"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:background="@mipmap/b4"
+                    android:gravity="center"
+                    android:text="৮\nআট"
+                    android:textColor="#ef3309"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:id="@+id/btnine"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+
+                    android:text="৯\nনয়"
+                    android:background="@mipmap/b4"
+                    android:gravity="center"
+                    android:textColor="#fcfffc"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp">
+                <Button
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:id="@+id/btzero"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="32dp"
+                    android:background="@mipmap/b4"
+                    android:text=" ০\nশূন্য"
+                    android:textColor="#1b1a1a"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

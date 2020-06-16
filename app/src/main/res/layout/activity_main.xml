@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bab96f"
+    android:orientation="vertical"
+    tools:context="com.example.home.learner.MainActivity">
+    <TextView
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:text="Kids learner"
+        android:textAlignment="center"
+        android:textColor="#059641"
+        android:textSize="30sp"
+        android:id="@+id/textView" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:gravity="center"
+
+        android:orientation="vertical">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+               android:background="@mipmap/b6"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:text="Poems"
+                android:textAllCaps="true"
+                android:textColor="#ff6410"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:text="কবিতা"
+                android:background="@mipmap/b6"
+                android:textColor="#ff6410"
+                android:textStyle="bold"
+                android:textSize="35sp"  />
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:text="123"
+                android:background="@mipmap/b6"
+                android:textColor="#ff6410"
+                android:textStyle="bold"
+                android:textSize="35sp" />
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/akdui"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="১ ২ ৩"
+                android:background="@mipmap/b6"
+                android:textColor="#ff6410"
+                android:textStyle="bold"
+                android:textSize="30sp"/>
+
+</LinearLayout>
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+            <!--<Button-->
+                <!--android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:layout_marginLeft="15dp"-->
+                <!--android:layout_marginRight="15dp"-->
+                <!--android:id="@+id/human"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:text="human body"-->
+                <!--android:textAllCaps="true"-->
+                <!--android:background="@mipmap/b6"-->
+                <!--android:textColor="#ff6410"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="30sp" />-->
+        <!--</LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/fruits"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="fruits"
+                android:textAllCaps="true"
+                android:background="@mipmap/b6"
+                android:textColor="#ff6410"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/animal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Animal"
+                android:textAllCaps="true"
+                android:background="@mipmap/b6"
+                android:textColor="#ff6410"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/button3"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="ABC"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@mipmap/b6"
+                android:textColor="#ff6410"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/kkh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="ক খ গ"
+                android:background="@mipmap/b6"
+                android:textColor="#ff6410"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <Button
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="15dp"
+                android:id="@+id/aa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="অ অা ই"
+                android:background="@mipmap/b6"
+                android:textColor="#ff6410"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="#fff201"
+        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@mipmap/b6"
+        android:text="About"
+
+        />
+</LinearLayout>
+
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:text="Created by SUDO_DEV"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff7f07"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+             </ScrollView>
+
+</LinearLayout>

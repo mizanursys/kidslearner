@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".Poem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+        android:orientation="horizontal">
+
+        <SeekBar
+            android:id="@+id/mpitch"
+            android:focusableInTouchMode="true"
+            android:verticalScrollbarPosition="right"
+            android:maxWidth="50dp"
+            android:backgroundTint="#dc0d0d"
+            android:backgroundTintMode="screen"
+            android:progress="50"
+            android:layout_marginTop="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fafafa"
+            android:text="pitch"/>
+
+        <SeekBar
+            android:id="@+id/mspeed"
+            android:progress="50"
+            android:layout_marginTop="10dp"
+            android:pointerIcon="zoom_in"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fafafa"
+            android:text="Speed"/>
+
+        <CheckBox
+            android:id="@+id/mvoice"
+            android:layout_width="wrap_content"
+            android:background="#fafafa"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fafafa"
+            android:text="M/F"/>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:backgroundTint="#ecc977"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Humpty Dumpty"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="#170bfa"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/humpty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#ff0e02"
+                android:text="Humpty Dumpty sat on a wall,\nHumpty Dumpty had a great fall.\nAll the king’s horses \nand \nAll the king’s men\nCouldn’t put Humpty together again"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:backgroundTint="#ecc977"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Baa, Baa, Black Sheep"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#170bfa"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/baa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#ff0e02"
+                    android:text="Baa, baa, black sheep,\nHave you any wool?\nYes, sir, yes, sir,\nThree bags full;\nOne for the master,\nAnd one for the dame,\nAnd one for the little boy\nWho lives down the lane"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:orientation="vertical"
+                android:backgroundTint="#ecc977"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Ding,Dong,Bell"
+
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#170bfa"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/ding"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0e02"
+                    android:text="Ding, dong, bell,\nPussy’s in the well.\nWho put her in?\nLittle Johnny Flynn.\nWho pulled her out?\nLittle Tommy Stout.\nWhat a naughty boy was that,\nTo try to drown poor pussy cat,\nWho never did him any harm,\nBut killed all the mice in the farmer's barn"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:backgroundTint="#ecc977"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Eeny,Meeny,Miny,Moe"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textColor="#170bfa"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/eeny"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#ff0e02"
+                    android:text="Eeny,meeny,miny,moe,\nCatch a tiger by the toe.\nIf he hollers, let him go,\nEeny, meeny, miny, moe."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:orientation="vertical"
+                android:backgroundTint="#ecc977"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Five Luttle Frog"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#170bfa"
+
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/five"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0e02"
+                    android:text="Five little speckled frogs\nSat on a speckled log\nEating the most delicious grubs\nOne jumped into the pool\nWhere it was nice and cool\nThen there were four green speckled frogs."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:orientation="vertical"
+                android:backgroundTint="#ecc977"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Tea Pot"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#170bfa"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0e02"
+                    android:text="I'm a little teapot, short and stout\nHere's my handle, here's my spout.\nWhen the kettle's boiling, hear me shout.\nTip me up and pour me out."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:backgroundTint="#ecc977"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="It's Raining"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#170bfa"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/rain"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff0e02"
+                    android:text="It's raining; it's pouring.\nThe old man is snoring.\nHe went to bed and bumped his head,\nAnd he wouldn't get up in the morning."/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:backgroundTint="#ecc977"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Itsy Bitsy Spider"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#170bfa"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/itsy"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#ff0e02"
+                    android:text="The itsy bitsy spider climbed up the water spout\nDown came the rain, and washed the spider out\nOut came the sun, and dried up all the rain\nSo the itsy bitsy spider climbed up the spout again.\nIncy Wincy Spider climbed up the tree\nDown came the snow and made poor Incy freeze\nOut came the sunshine, and melted all the snow\nSo Incy Wincy Spider had another go."/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/background"
+                android:orientation="vertical"
+                android:backgroundTint="#ecc977"
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Jack Sprat"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textColor="#170bfa"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/spart"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="#ff0e02"
+                    android:text="Jack Sprat could eat no fat\nHis wife could eat no lean.\nAnd so between the two of them,\nThey licked the platter clean!
+"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
